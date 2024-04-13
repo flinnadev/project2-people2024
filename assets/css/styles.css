@@ -1,7 +1,12 @@
-p {
-  color: chocolate;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.sub-head {
-  color: blue;
+div {
+  border: 2px red solid;
+  padding: 5vw; /* vh, vw, vmin, % */
+  margin: 1em;
+  width: 300px;
+  height: 30%;
+  box-sizing: border-box;
 }
